@@ -1,8 +1,8 @@
 {
-  "name": "nerd-autodidata",
+  "name": "vivek9patel-portfolio",
   "version": "2.0.0",
   "private": true,
-  "homepage": "https://www.nerdautodidata.com.br",
+  "homepage": "https://vivek9patel.github.io/",
   "scripts": {
     "dev": "next dev",
     "build": "next build",
