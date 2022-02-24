@@ -1,0 +1,30 @@
+.profile-text{
+    text-align: left;
+    font-size: 1.2rem;
+}
+.profile-img{
+    position: relative;
+    border-radius: 50%;
+    width: 65%;
+    margin-top: 5vh;
+    /* bottom: 18rem; */
+    border: 5px solid #fff;
+}
+.side-text-profile{
+    position: absolute;
+    transform: rotate(90deg);
+    right:-12vw;
+    top: 17rem;
+    font-size: 16.35vh;
+    font-weight: 750;
+    color: #46466d;
+    text-transform: uppercase;
+}
+@media (max-width: 768px) {
+    .profile-text{
+        font-size: 0.85rem;
+    }
+    .profile-photo{
+        display: none;
+    }
+}

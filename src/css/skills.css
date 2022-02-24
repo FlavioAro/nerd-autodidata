@@ -1,0 +1,61 @@
+.devicon{
+    font-size: 4rem;
+    filter: drop-shadow(8px 8px 10px black);
+}
+.skills .row{
+    text-align: center;
+}
+.skills .col-lg-2{
+    min-height: 15vh !important;
+}
+.tech-label{
+    font-size: 0.65rem;
+    margin-top: 3px;
+}
+
+/* SVG */
+.dev-image{
+    position: relative;
+    width: 120%;
+    right: 20%;
+}
+
+.side-text-skills{
+    position: absolute;
+    transform: rotate(90deg);
+    right:-9vw;
+    top: 17rem;
+    font-size: 16.35vh;
+    font-weight: 750;
+    color: #46466d;
+    text-transform: uppercase;
+  }
+/* .skill-img-col{
+    display: none;
+} */
+
+@media (max-width: 992px){
+    .skill-img-col{
+        display: none !important;
+    }
+    .devicon{
+        font-size: 2.5rem;
+        filter: drop-shadow(8px 8px 10px black);
+    }
+    .skills .col-lg-2{
+        min-height: 2vh !important;
+    }
+}
+
+
+@media (max-width: 768px){
+    .devicon{
+        font-size: 1.8rem;
+    }
+    .section-heading{
+        font-size: 1.9rem;
+    }
+    .section-quote{
+        font-size: 1.05rem;
+    }
+}
